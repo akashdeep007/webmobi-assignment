@@ -1,0 +1,25 @@
+{
+  "name": "webmobi-assignment",
+  "version": "1.0.0",
+  "description": "Create a node.js server on any port. Handle two routes - / and /users Return some greetings for / route - It should be basic HTML code like H1 tag with welcome greetings.  Return a list of dummy users - HTML unordered list of dummy users  Add a form with a \"username\" <input> to the \"/\" page and submit a post request to /create-user upon button press Add a \"/create-user\" route and parse the incoming data and log into the console and redirect to the another page for chat Add a chat interface with socket.io for a simple chat amongst two users who have been created",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashdeep007/webmobi-assignment.git"
+  },
+  "author": "akashdeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashdeep007/webmobi-assignment/issues"
+  },
+  "homepage": "https://github.com/akashdeep007/webmobi-assignment#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9",
+    "socket.io": "^3.0.4"
+  }
+}
